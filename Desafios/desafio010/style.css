@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #67d398;
+    width: 100%;
+    margin: 0%;
+}
+header{
+    background-image: linear-gradient( to bottom, #3BD17F, #1A5C38);
+    width: 100%;
+    height: 150px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: center; 
+    padding-top: 0%;
+    margin: -20px auto auto auto;
+
+}
+
+h1{
+    font-size: 2em;
+    color: #1A5C38;
+    font-family: android;
+}
+
+h1#titulocab{
+    color: white;
+}
+
+h2{
+    background-image: linear-gradient(to right, #3bd17f52, #3bd17f02);
+    color: #1A5C38;
+    font-family: android;
+}
+
+.textmain {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+#textcab {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+ul{
+text-align: left;
+
+}
+li{
+    display: inline-block;
+    padding: 2px;
+    color: white;
+    top: 200px;
+    left: 200px;
+}
+main{
+    background-color: white;
+    width: 800px;
+    height: auto;
+    margin: auto;
+    box-shadow: 5px 5px 5px #1a5c3879;
+    padding: 20px;
+    padding-top: 1px;
+}
+
+div#imagemchata{
+    margin: auto;
+    text-align: center;
+}
+
+div#video{
+    text-align: center;
+    align-items: center;
+    border: 5px solid #1A5C38;
+}
+
+div#quermais{
+    width: 750px;
+    height: auto;
+    background-color: #3BD17F;
+}
+
+div#quermais > #pquermais{
+    background-color: #1c643c;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    padding: 2px;
+}
+
+li#lista{
+    display: block;
+    width: 300px;
+}
+
+#lista01{
+    text-align: left;
+    align-items: left;
+}
+
+#lista02{
+    text-align: right;
+    align-items: right;
+}
+

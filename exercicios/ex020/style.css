@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+
+div#um{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+div#dois{
+    background-color: rgb(0, 255, 191);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+div#tres{
+    background-color: rgb(95, 30, 70);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+div#um:hover{
+    background-color: yellow;
+}
+div#dois:hover{
+    background-color: yellow;
+}
+div#tres:hover{
+    background-color: yellow;
+}
+
+div#texto{
+    width: 140px;
+}
+
+div#texto > p {
+    display: none;
+}
+
+div#texto:hover > p{
+    display: block;
+    color: white;
+    width: 300px;
+    background-color: darkgray;
+}
+
+a:active{
+    color: yellow;
+}
+
+a::after{
+    content: '[link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
+
+a::before{
+    content: '[link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}
